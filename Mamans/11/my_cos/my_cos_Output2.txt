@@ -1,0 +1,2 @@
+Enter a value for x: my_cos_result(45.000000) = 55.651145
+cos(45.000000) = 0.525322
