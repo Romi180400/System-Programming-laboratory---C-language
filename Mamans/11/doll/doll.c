@@ -13,7 +13,8 @@ int main() {
     printf("$\t\t\t\tIS\n");
     scanf("%f", &dollar_c);
 
-    while (scanf("%f", &current_val) == 1) {
+    while (scanf("%f", &current_val) == 1) /*  comparison checks if scanf successfully read one value, indicating that the input is still valid.*/
+    {
         sumD += current_val;
         printf("%.2f\t\t\t\t%.2f\n", current_val, dollar_c * current_val);
     }
